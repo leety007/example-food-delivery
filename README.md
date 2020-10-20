@@ -865,6 +865,7 @@ Request/Response 방식으로 구현하지 않았기 때문에 서비스가 더�
 	폴리글랏 퍼시스턴스
 팀프로젝트 진행 시 간편한 DB구성을 위해 RDBMS 기반의 H2 DB를 적용하였다. H2는 Docker에서 설정이 가능하기 때문에 application.yml 파일에는 설정하지 않았으며 dependencies에만 추가하여 진행하였다. 
 @Table를 사용하여 따로 테이블명을 지정하였으며 Entity Pattern과 Repository Pattern을 적용하였다.
+
 Product.java
 package rentalService;
 
@@ -899,7 +900,9 @@ pom.xml
 
 	폴리글랏 프로그래밍
 물품 대여 시스템의 시나리오인 대여, 배송 등의 시스템 구현 방식은 JPA를 기반으로 구현하였으며 주요 이벤트 처리방식은 Kafka, FeignClient를 적용하였다.
+
 [Kafka 적용]
+
 kafkaProcessor.java
 package rentalService.config.kafka;
 
@@ -932,6 +935,7 @@ Rental.java
     }
 
 [FeingClient 적용]
+
 DeliveryService.java
 package rentalService.external;
 
