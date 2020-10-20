@@ -860,7 +860,7 @@ Request/Response 방식으로 구현하지 않았기 때문에 서비스가 더�
 ```
 [추가]
 
-![image](https://github.com/leety007/example-food-delivery/blob/master/%ED%97%A5%EC%82%AC.png)
+![image](https://github.com/leety007/example-food-delivery/blob/master/%ED%97%A5%EC%82%AC.png) 
 
 	폴리글랏 퍼시스턴스
 팀프로젝트 진행 시 간편한 DB구성을 위해 RDBMS 기반의 H2 DB를 적용하였다. H2는 Docker에서 설정이 가능하기 때문에 application.yml 파일에는 설정하지 않았으며 dependencies에만 추가하여 진행하였다. 
