@@ -858,5 +858,7 @@ Request/Response 방식으로 구현하지 않았기 때문에 서비스가 더�
         **/
     }
 ```
+[추가]
 
+![image](https://github.com/leety007/example-food-delivery/blob/master/%ED%97%A5%EC%82%AC.png)
 
